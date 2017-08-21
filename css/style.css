@@ -1,0 +1,1629 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    border:0; 
+}
+html, body{
+    height:100%;
+    width:100%;
+}
+body{
+    font-size:16px;
+    background-color:#DFE8E7;
+    padding-bottom:1.7em;
+}
+h1{
+    font-family:"Yantramanav";
+    color:#243039;
+    font-size: 8vw;
+}
+
+h2{
+    font-family:"Yantramanav";
+    color:#243039;
+    font-size:6vw;
+}
+
+h3{
+    font-family:"Yantramanav";
+    color:#FFFFFF;
+    font-size:5vw;
+}
+
+p{
+    font-family:"Quicksand";
+    color:#243039;
+    font-size:3vw;
+}
+
+a{
+    font-family:"Quicksand";
+}
+a:hover{
+    text-decoration:none;
+}
+.bold{
+    font-weight:bold;
+}
+
+#instagram{
+    display:none;
+}
+#facebook{
+   display:none; 
+}
+#footerdata{
+    display:none;
+}
+.knap{
+    display:none;
+}
+
+/* nav css */
+.desktopnav{
+    display:none;
+}
+
+
+#nav-ul{
+    display:none;
+}
+
+#nav-logo{
+    display:none;
+}
+
+.nav-div-venstre{
+    display:none;
+}
+.nav-div-højre{
+    display:none;
+}
+
+nav ul li a{
+    color:#ffffff;
+    font-family:'Source Sans Pro', sans-serif;
+    text-decoration:none;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a:hover{
+    color:#285465;
+    text-decoration:none;
+}
+
+
+/* Mobil nav */
+#mlogo{
+    position:relative;
+    width:70%;
+    top:1em;
+    left:50%;
+    margin-left:-35%;
+}
+.beskrivelse{
+    text-align:center;
+}
+#navm-højre{
+    display:block;
+    position:fixed;
+    background-color: #98B8B5;
+    bottom:-10vh;
+    right:0;
+    width:50%;
+    height:20%;
+    transform: skewY(6deg);
+}
+
+#navm-venstre{
+    display:block;
+    position:fixed;
+    background-color: #98B8B5;
+    bottom:-10vh;
+    left:0;
+    width:50%;
+    height:20%;
+    transform: skewY(-6deg);
+}
+
+#mobilm{
+    display:block;
+    bottom:0;
+    margin-top:3vw;
+}
+
+#menuluk{
+    display:none;
+}
+
+#menuluk img, #mobilknap img{
+    position:fixed;
+    display:block;
+    height: 9vh;
+    width: 15%;
+    left:50%;
+    margin-left:-7.5%;
+    bottom:0;
+    background-color: #98B8B5;
+    cursor: pointer;
+}
+
+#mobilknap, #menuluk{
+    position:fixed;
+    bottom:0;
+    text-align:center;
+    background-color: #98B8B5;
+}
+
+#mobilmenu{
+    display:none;
+    position:fixed;
+    bottom:0;
+    background-color: #98B8B5;
+    height:100%;
+    width:100%;
+    z-index:2;
+}
+
+#mobilknap{
+    display:block;
+}
+
+#mnav-ul{
+    width:100%;
+    position:fixed;
+    bottom:33%;
+    padding:0;
+    text-align:center;
+    
+}
+
+#mnav-ul li a{
+    font-size:7vh;
+}
+
+#mnav-ul li{
+    width:100%;
+    font-size: 2.5em;
+    color:#ffffff;
+    border-bottom:0.08em;
+    border-bottom-style:solid;
+}
+
+#mnav-ul li:last-child{
+    border-bottom-style: none;
+}
+
+
+
+#mfacebook{
+    display: none;
+    position:fixed;
+    bottom:14vh;
+    left:50%;
+    margin-left:-23vh;
+    height:20%;
+    width:20vh;
+}
+
+#minstagram{
+    display: none;
+    position:fixed;
+    bottom:14vh;
+    right:50%;
+    margin-right:-23vh;
+    height:20%;
+    width:20vh;
+}
+
+
+/* INDEX CSS */
+#velkomst{
+    width: 100%;
+}
+
+#velkomst h1, #velkomst p{
+    text-align: center;
+    padding: 0 10%;
+
+}
+
+#velkomst{
+    display:block;
+    position:relative;
+    margin-top: 5em;
+}
+#velkomst h1{
+    text-align:center;
+    display:block;
+    position:relative;
+    font-size:2em;
+}
+
+#videowrap{
+    display:none;
+}
+
+#gif{
+    display:block;
+    position:relative;
+    width:100%;
+    margin:0;
+    padding:0;
+    border:0;
+}
+/* OM CSS*/
+.om-boks{
+    position:relative;
+    width:100%;
+    height:100%;
+    margin-top:10vh;
+}
+
+.om-boks:first-of-type{
+    margin-top:0;    
+}
+
+.wrapper, .wrapper-kontakt{
+    padding:2em 2em 25vw 2em;
+}
+
+
+.om-boks a{
+    display:block;
+    width:60%;
+    position:relative;
+    left:50%;
+    margin-left:-30%;
+}
+
+.om-boks a img{
+    width:100%;
+    
+}
+
+.om-h2{
+    display:block;
+    position:absolute;
+    width:80%;
+    height:10vw;
+    line-height:10vw;
+    bottom:6vw;
+    color:#FFFFFF;
+    text-align:center;
+    background-color:rgba(133, 163, 184, 0.6)/*#85A3B8*/;
+    left:50%;
+    margin: 2em 0 0 -40%;
+    font-size: 7vw;
+}
+.row-om h2{
+    position: relative;
+    top: 25vw;
+    background-color: rgba(133, 163, 184, 0.6)/*#85A3B8*/;
+    color:#ffffff;
+    padding:2vw;
+    font-size:4vw;
+    text-align:center;
+}
+.behandleren-sec{
+    background-image: url(../images/stine-kvadrat.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 40vw;
+}
+.grummesgaard-sec{
+    background-image: url(../images/legehus.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 40vw;
+}
+.anbefaling-back{
+    display:block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 60%;
+    text-align:center;
+    left:50%;
+    margin-left:-30%;
+    margin-top: 2em;
+    font-size: 3vw;
+}
+.anbefaling-back:hover{
+    text-decoration:none;
+}
+.anbefaling-knap{
+    display:block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 60%;
+    text-align:center;
+    left:50%;
+    margin-left:-30%;
+    font-size: 3vw;
+}
+.anbefaling-knap:hover{
+    text-decoration:none;
+}
+
+#grummesgaard{
+    font-size:5vw;
+}
+
+#klinisk{
+    font-size: 6vw;
+}
+
+.behandleren-knap{
+    display:inline;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 30%;
+    text-align:center;
+    left:26%;
+    font-size: 3vw;
+    margin:2em 0em;
+}
+.behandleren-knap:hover{
+    text-decoration:none;
+}
+
+#anbefaling-home{
+    margin-bottom: 4em;
+}
+
+#anbefaling{
+    display:block;
+    position:relative;
+    width:100%;
+}
+
+#anbefaling img{
+    display:block;
+    position:relative;
+    width:100%;
+}
+
+#anbefaling h2{
+    display:inline-block;
+    position:absolute;
+    color:#FFFFFF;
+    text-align:center;
+    background-color:rgba(133, 163, 184, 0.6)/*#85A3B8*/;
+    width:80vw;
+    left:50%;
+    margin: -40.5vw 0 0 -40vw;
+    font-size: 5vw;
+    padding: 5vw;
+    top:50vw;
+}
+#h1-behandler{
+    text-align:center;
+    margin-bottom:0.8em;
+}
+#skilt-img{
+    display:none;
+}
+
+#stine-img{
+    display:block;
+    position:relative;
+    width:80vw;
+    left:50%;
+    margin: 3vw 0 0 -40vw;
+}
+#forventning h2{
+    text-align: center;
+    font-size: 6vw;
+}
+
+#forventning-ul{
+    display:inline-block;
+    position:relative;
+    list-style-type: none;
+    padding:0;
+    border:0;
+    width:80vw;
+    font-size:3.5vw;
+    left:50%;
+    margin-left:-40vw;
+}
+
+#forventning-ul li{
+    margin-bottom:3vw;
+}
+#forventning img{
+    width:4%;
+}
+
+.checkmark{
+    display:inline;
+    margin-top:-2vw;
+}
+
+#cv h2{
+    text-align:center;
+    font-size:5vw;
+}
+
+/*Lille Grummesgaard CSS*/
+#hypnoseværelse, #sansehave, #skovsti{
+    display:block;
+    position:relative;
+    width:80vw;
+    left:50%;
+    margin-left:-40%;
+    background-color: #B1CCD7;
+}
+
+.faciliteter{
+    display:block;
+    position:relative;
+    background-color:#25B2BD;
+    margin-bottom:3em;
+}
+
+.faciliteter img{
+    display:block;
+    position:relative;
+    top:0px;
+    width:80vw;
+}
+
+.faciliteter H3{
+    display:block;
+    position:absolute;
+    bottom: 0;
+    line-height:13vw;
+    margin:0;
+    text-align:center;
+    width:100%;
+    background-color: rgba(177, 204, 215, 0.6);
+}
+#skovsti a, #sansehave a, #hypnoseværelse a{
+    background-color:#85A3B8;
+}
+
+/*Behandlinger CSS*/
+.banner-img{
+    display:block;
+    position:absolute;
+    width:100vw;
+}
+
+.article-behandling{
+    display:block;
+    position:relative;
+    top:0;
+    left:50%;
+    width:80vw;
+    margin-left:-40vw;
+    margin-top:1.5em;
+    text-align:left;
+    background-color:rgba(177, 204, 215, 0.6) /*#B1CCD7*/;
+    padding:3vw;
+}
+
+.article-behandling h1{
+    font-size:8vw;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.article-behandling h2{
+    color:#FFFFFF;
+}
+
+.article-behandling p, .article-behandling li{
+    font-size:3vw;
+    color:#FFFFFF;
+    list-style-type: none;
+}
+.hypnose-sec{
+    background-image: url(../images/om-hypnose.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+}
+.krystal-sec{
+    background-image: url(../images/om-krystal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;    
+}
+.mindful-sec{
+    background-image: url(../images/om-mindfulness.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+}
+.row-behandlinger h2{
+    position: relative;
+    top: 18vw;
+    background-color: rgba(133, 163, 184, 0.6)/*#85A3B8*/;
+    color:#ffffff;
+    padding:2vw;
+    text-align:center;
+}
+
+/*PRISER CSS*/
+
+#priser-wrap{
+    display:block;
+    position:relative;
+    width:80vw;
+    left: 50%;
+    margin-left:-40vw;
+}
+
+#priser-wrap h1{
+    text-align:center;
+}  
+
+#priser-wrap p{
+    text-align:left;
+    font-size:3vw;
+}
+
+#buttons{
+    display:block;
+    position:relative;
+}
+
+#buttons button{
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 44%;
+    text-align:center;
+    font-size: 3vw;
+    margin-top:1vw;
+}
+#buttons button:hover{
+    color:#23528f;
+}
+
+#buttons button:first-of-type, #buttons button:nth-of-type(3){
+    margin-right:6%;
+}
+
+#buttons .active{
+    color:#23528f;
+}
+
+#pakkewrap{
+    display:block;
+    position:relative;
+    left:50%;
+    width:80vw;
+    margin: 5vw 0 0 -40vw;
+}
+.pakker{
+    display:none;
+    position:relative;
+    width:100%;
+    background-color:#B1CCD7;
+}
+
+.pakker img{
+    display: inline-block;
+    position:relative;
+    width:100%;
+}
+
+.pakker h1{
+    display:block;
+    position:relative;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.pakker h2{
+    display:block;
+    position:relative;
+    text-align: center;
+    font-size:3vw;
+    color:#FFFFFF;
+}
+
+.pakker p{
+    display:block;
+    position:relative;
+    text-align:left;
+    width:80vw;
+    padding:0 1em;
+    font-size:2vw;
+    color:#FFFFFF;
+}
+
+.pakker p:last-of-type{
+    text-align:center;
+    font-size:3vw;
+}
+
+
+.pakker section{
+    display:inline-block;
+    position:relative;
+    width:80vw;
+    text-align:center;
+}
+
+.pakker a{
+    display:inline-block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    border-radius: 1em;
+    width: 35vw;
+    text-align:center;
+    font-size: 3vw;
+}
+.pakker a:hover{
+    text-decoration:none;
+    color:#23528f;
+}
+
+.pakker section a:first-of-type{
+    margin-right:2vw;
+}
+
+.pakker section a:last-of-type{
+    margin-left:2vw;
+}
+
+.pakkeclose{
+    display:block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    border:0;
+    width: 60vw;
+    text-align:center;
+    font-size: 3vw;
+    left:50%;
+    margin:5vw 0 5vw -30vw;
+}
+.pakkeclose:hover{
+    color:#23528f;
+}
+.modalinfo h2{
+    position:absolute;
+    font-size:3.5vw;
+    width:80%;
+    bottom:6vw;
+    text-align:center;
+    background-color: #77A5BA;
+    padding:1vw;
+    color: #FFFFFF;
+    margin-left:7%;
+}
+
+.modalinfo h3{
+    position:absolute;
+    font-size:2.2vw;
+    width:80%;
+    bottom: 3vw;
+    text-align:center;
+    background-color: #77A5BA;
+    padding:1vw;
+    color: #FFFFFF;
+    margin-left:7%;
+}
+.pakke1-img{
+    background-image: url(../images/priser/pakke1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+
+}
+.pakke2-img{
+    background-image: url(../images/priser/pakke2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke3-img{
+    background-image: url(../images/priser/pakke3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke4-img{
+    background-image: url(../images/priser/pakke4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke5-img{
+    background-image: url(../images/priser/pakke5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke6-img{
+    background-image: url(../images/priser/pakke6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke7-img{
+    background-image: url(../images/priser/pakke7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke8-img{
+    background-image: url(../images/priser/pakke8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke9-img{
+    background-image: url(../images/priser/pakke9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke10-img{
+    background-image: url(../images/priser/pakke10.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke11-img{
+    background-image: url(../images/priser/pakke11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+.pakke12-img{
+    background-image: url(../images/priser/pakke12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 30vw;
+    border: 0.5em;
+    border-style: solid;
+    border-color: #DFE8E7;
+}
+/*Kontakt CSS*/
+#formular h2{
+    font-size:8vw;
+}
+#kort h2{
+    margin-top:-5vw;
+    font-size:8vw;
+    
+}
+#kort iframe{
+    pointer-events: none;
+    display:inline;
+    margin:4em 1em;
+    border:0;
+}
+
+
+#formular{
+    display:block;
+    position:relative;
+    width:80%;
+    top:0;
+    left:50%;
+    margin-left:-40%;
+    margin-top:2vw;
+}
+
+.formular-svar{
+    display:inline-block;
+    width:100%;
+    padding: 0.5em 0 0.5em 0.3em;
+    background-color:#B1CCD7;
+    color: #757575;
+    border-style:none;
+    border:0;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.formular-svar:last-of-type{
+    margin: -1em 0 1em 0;
+    padding-left:0;
+}
+
+textarea{
+    display:inline-block;
+    background-color:#B1CCD7;
+    width:100%;
+}
+
+.kontaktknap{
+    display:inline-block;
+    position:relative;
+    width:50%;
+    background-color: #B1CCD7;
+    color: #757575;
+    left:50vw;
+    margin: 0 0 20vw 0;  
+    border-radius:1em;
+    padding:1em;
+}
+#sendknap{
+display:inline;
+}
+
+#resetknap{
+display:inline;
+}
+.info{
+    display:block;
+    position:relative;
+    top:0;
+    padding-bottom: 3vw;
+    margin-bottom: 4vw;
+}
+
+.info p{
+    font-size: 5vw;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 0.1em;
+}
+#kort p{
+    font-size:4vw;
+}
+
+
+/* --------TABLET-----------------------TABLET------------------------------------------------------------------------------------------------------------------------------------ */
+@media only screen and (min-width:768px){
+/*Generelt*/
+h1{
+    font-size: 7vw;
+}
+
+h2{
+    font-size:7vw;
+}
+
+h3{
+    font-size:5vw;
+}
+p{
+    font-size:2.5vw;
+}
+
+.knap{
+    display:block;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:0.5em;
+    border-radius: 1em;
+    width: 25%;
+    font-size: 2vw;
+    text-align:center;
+    margin:1.5em;
+}
+
+.anbefaling-back{
+    display:block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 50%;
+    text-align:center;
+    left:55%;
+    margin-top:6vw;
+    font-size: 1.8vw;
+    bottom:2em;
+}
+.anbefaling-knap{
+    display:block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 40%;
+    text-align:center;
+    left:60%;
+    font-size: 3vw;
+    bottom:2em;
+}
+/*NAV*/
+nav{
+    width:100%;
+    background-color:#98b8b5;
+    position:fixed;
+    z-index:2;  
+    top:0; 
+}
+
+#mobilm, #mlogo, #gif{
+    display:none;        
+}
+
+#nav-ul li a{
+    font-size:1.8vw;
+    margin:0px 2em;
+    text-decoration:none;
+}
+
+#nav-ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#desktopnav{
+    display: block;
+}
+
+#nav-ul{
+    display:block;
+    position: relative;
+    left: 27%;
+    top: 1.33125em;
+    max-width: 85%
+}
+#nav-logo{
+    display:block;
+    position: relative;
+    top: 1.2em;
+    left:12%;
+    width:15%;
+    z-index:3;
+    position:fixed;
+}
+.nav-div-venstre{
+    display:block;
+    height: 110px;
+    width: 15%;
+    background-color: #98b8b5;
+    transform: skewY(17deg);
+    z-index: 2;
+    position: fixed;
+    top:0;
+    left:0
+}
+.nav-div-højre{
+    display:block;
+    height: 110px;
+    width: 85%;
+    background-color: #98b8b5;
+    transform: skewY(-3deg);
+    z-index: 2;
+    position: fixed;
+    top:0.03125em;
+    right: 0;
+}
+
+.desktopnav{
+    display: block;
+    position:relative;
+}
+
+.desktopnavnone{
+    background-color:rgba(0,0,0,0.0); 
+}
+
+.desktopnavscroll{
+    background-color:#98b8b5;
+}
+
+#logo{
+    position:absolute;
+    top:0;
+    left:0;
+}
+/*FOOTER*/
+#foot{
+    display:block;
+    position:relative;
+}
+
+#footerhøjre{
+    display:block;
+    height: 7vw;
+    width: 87.5%;
+    background-color: #98b8b5;
+    transform: skewY(-2.2deg);
+    position: absolute;
+    bottom:-2em;
+    left:0;
+}
+
+#footervenstre{
+    display:block;
+    height: 7vw;
+    width: 12.5%;
+    background-color: #98b8b5;
+    transform: skewY(14.6deg);
+    position: absolute;
+    bottom:-2em;
+    right:0;
+}
+
+#footerbund{
+    display:block;
+    height: 8vw;
+    width: 100%;
+    background-color: #98b8b5;
+    position: absolute;
+    bottom:-0.5;
+    left:0;
+    padding-right:0.2em;
+}
+
+#footerdata{
+    display:block;
+    position:relative;
+}
+#footerdata a{
+    display:inline-block;
+    position:relative;
+}
+
+#footerdata p{
+    display:inline-block;
+    position:relative;
+    float:right;
+    font-size:1.3vw;
+    margin-right:1em;
+    color:#ffffff;
+
+}
+#footerdata img{
+    display:inline;
+    width:40%;
+}
+#kontaktinfo,#adresse{
+    display:inline;
+    width:20%;
+    float:right;
+    margin-right:1vw;
+}
+#some{
+    width:30%;
+    display:inline;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#some a{
+    max-width:49%;
+    display:block;
+    position:relative;
+}
+#some #facebook, #some #instagram{
+    display: inline-block;
+    position: relative;
+}
+#some #facebook{
+    margin-left:2vw;
+}
+#some #instagram{
+    margin-left:-8vw;
+}
+
+#kontaktinfo a, #adresse a{
+    color:#ffffff;
+}
+#kontaktinfo a:hover, #adresse a.hover{
+    color:#23528f;
+}
+/* Index*/
+#videowrap{
+    display:block;
+    margin-top:-5em;
+}
+
+video{
+    width:100%; 
+    height:10%;
+    margin-top:-10vw;
+}
+
+#velkomst, #anbefaling-home{
+    display:none;
+}
+#anbefaling-home2{
+    position:relative;
+    z-index:1;
+    bottom:10vw;
+}
+
+/*OM - Tablet*/
+.om-boks, .om-boks img, .om-boks a{
+    width:30%;
+    display:inline;
+}
+
+.om-boks{
+    position:relative;
+    max-width:100%;
+    height:100%;
+    margin-top:10vh;
+}
+
+.om-boks:first-of-type{
+    margin-top:0;    
+}
+
+.wrapper{
+    margin-top:15vw;
+    padding:2em;
+    margin-bottom:10vw;
+    background-color:#DFE8E7;
+}
+
+.om-boks a{
+    display:block;
+    width:60%;
+    position:relative;
+    left:50%;
+    margin-left:-30%;
+}
+
+.om-boks a img{
+    width:100%;
+    
+}
+/*Behandleren Stine*/
+.behandleren-knap{
+    display:inline;;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    width: 20%;
+    left:35%;
+    text-align:center;
+    font-size: 2vw;
+}
+.article-behandling p, .article-behandling li{
+    font-size:2vw;
+}
+.row-behandleren{
+    width:88%;
+    margin:auto;
+    margin-top:2vw;
+}
+#stine-img{
+    width:100%;
+    display:inline;
+    margin:0;
+    left:0;
+}
+#skilt-img{
+    width:100%;
+    height:10%;
+    display:inline;
+}
+#forventning{
+    clear:both;
+}
+#forventning img{
+    width:4%;
+}
+#forventning ul li{
+    font-size:2vw;
+}
+#forventning h2{
+    font-size:4vw;
+    margin-top:1.5vw;
+    margin-bottom:4vw;
+}
+#cv h2{
+    font-size:4vw;
+}
+
+/*Lille Grummesgaard*/
+.faciliteter img, .faciliteter h3, .info p, #info1, #info2, #info3{
+    width:100%;
+}
+
+.faciliteter h3{
+    font-size: 3vw;
+}
+
+.info p{
+    font-size: 2vw;
+}
+
+#info1, #info2, #info3{
+    height:25vw;
+    padding:1vw;
+}
+
+#hypnoseværelse, #sansehave, #skovsti{
+    left:0;
+    margin:0;
+    width:100%
+}
+/*Behandlinger*/
+.row-behandlinger h2{
+    font-size:3vw;
+}
+/*PRISER*/
+.pakker a{
+    display:inline-block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    border-radius: 1em;
+    width: 15vw;
+    text-align:center;
+    font-size: 1vw;
+}
+#buttons button{
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:2px;
+    border-radius: 20px;
+    width: 44%;
+    text-align:center;
+    font-size: 25px;
+}
+#priser-wrap p{
+    text-align:center;
+    font-size:2vw;
+}
+.modalinfo h2{
+    position:absolute;
+    font-size:3vw;
+    width:80%;
+    bottom:6vw;
+    text-align:center;
+    background-color: #77A5BA;
+    padding:1vw;
+    color: #FFFFFF;
+    margin-left:7%;
+}
+
+.modalinfo h3{
+    position:absolute;
+    font-size:2vw;
+    width:80%;
+    bottom: 3vw;
+    text-align:center;
+    background-color: #77A5BA;
+    padding:1vw;
+    color: #FFFFFF;
+    margin-left:7%;
+}
+.pakker{
+    display:none;
+    position:relative;
+    width:60%;
+    background-color:#B1CCD7;
+    margin-left:20%;
+}
+
+.pakker img{
+    display: inline-block;
+    position:relative;
+    width:100%;
+}
+
+.pakker h1{
+    display:block;
+    position:relative;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.pakker h2{
+    display:block;
+    position:relative;
+    text-align: center;
+    font-size:3vw;
+    color:#FFFFFF;
+}
+
+.pakker p{
+    display:block;
+    position:relative;
+    text-align:left;
+    width:100%;
+    padding:0 1em;
+    font-size:2vw;
+    color:#FFFFFF;
+}
+
+.pakker p:last-of-type{
+    text-align:center;
+    font-size:2vw;
+}
+
+
+.pakker section{
+    display:inline-block;
+    position:relative;
+    width:100%;
+    text-align:center;
+}
+
+.pakker a{
+    display:inline-block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    border-radius: 1em;
+    width: 30%;
+    text-align:center;
+    font-size: 1.6vw;
+    margin-left:0;
+}
+.pakker a:hover{
+    text-decoration:none;
+    color:#23528f;
+}
+}
+
+
+.pakkeclose{
+    display:block;
+    position:relative;
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:1em;
+    border-radius: 1em;
+    border:0;
+    width: 70%;
+    text-align:center;
+    font-size: 2vw;
+    margin-left:-35%;
+    left:50%;
+}
+
+/*Kontakt*/
+#kort h2{
+    font-size:4.5vw;
+    margin-top:1.8vw;
+}
+#kort p{
+    font-size:2.5vw;
+}
+#sendknap{
+    margin-left:-18vw;
+}
+#formular h2{
+    font-size:4.5vw;
+    margin-top:0;
+}
+.kontaktknap{
+    left:18vw;
+}
+.wrapper-kontakt{
+    margin-top:15vw;
+    padding:2em;
+    margin-bottom:5vw;   
+}
+
+/* ---DESKTOP------------------------------------DESKTOP---------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (min-width:992px){
+h1{
+    font-size: 6vw;
+}
+h2{
+    font-size:4vw;
+}
+
+h3{
+    font-size:3vw;
+}
+
+p{
+    font-size:1.5vw;
+}
+.knap{
+    font-size:1.3vw;
+    width:20%;
+}
+/*Nav*/
+#nav-ul li a{
+    font-size:1.5vw;
+    margin:0px 2.5em;
+}
+/*INDEX*/
+#anbefaling-home2{
+    position:relative;
+    z-index:1;
+    bottom:10vw;;
+    font-size:1.7vw;
+}
+
+#videowrap{
+    margin-top:-12em;
+}
+
+#buttons button{
+    background-color: #85A3B8;
+    color:#FFFFFF;
+    padding:2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    width: 22%;
+    text-align:center;
+    font-size: 19px;
+}
+
+/*OM*/
+.anbefaling-back{
+    font-size:1.7vw;
+}
+.grummesgaard-sec h2, .behandleren-sec h2{
+    font-size:3vw;
+    top:30vw;
+}
+/*Behandleren*/
+ .article-behandling h1{
+     font-size:6vw;
+ }
+ .article-behandling h2{
+     font-size:4vw;
+ }
+.article-behandling{
+    margin-top:3vw;
+}
+.article-behandling p, .article-behandling li{
+    font-size:1.3vw;
+}
+/*Faciliteter*/
+
+.faciliteter h3{
+    font-size: 3vw;
+}
+
+.info p{
+    font-size:1.6vw;
+}
+
+#info1, #info2, #info3{
+    height:18vw;
+}
+/*Priser*/
+.modalinfo h2{
+    position:absolute;
+    font-size:2vw;
+    width:80%;
+    bottom:6vw;
+    text-align:center;
+    background-color: #77A5BA;
+    padding:1vw;
+    color: #FFFFFF;
+    margin-left:7%;
+}
+
+.modalinfo h3{
+    position:absolute;
+    font-size:1.5vw;
+    width:80%;
+    bottom: 3vw;
+    text-align:center;
+    background-color: #77A5BA;
+    padding:1vw;
+    color: #FFFFFF;
+    margin-left:7%;
+}
+#priser-wrap p{
+    font-size:1.5vw;
+}
+.pakker a{
+    margin-top:2vw;
+}
+/*Kontakt*/
+#kort h2{
+    font-size:3.5vw;
+}
+#kort p{
+    font-size:1.5vw;
+}
+#formular h2{
+    font-size:3.5vw;
+    margin-top:0;
+}
+}
